@@ -1,0 +1,27 @@
+// Styles that are applied on the slider element are important to give the slider a proper layout
+// and position it correctly
+// It is not recommended to change or remove ".slider" styles
+.slider {
+  position: relative;
+}
+
+// Only one item from the gallery can be displayed at a time and is given ".active-slide" class
+// Other items will have "opacity: 0;" which makes them completely transparent (invisible)
+.active-slide {
+  opacity: 1 !important;
+}
+
+// Active bullet illustrates which item from the gallery is currently active 
+// and filled with the white background
+.active-bullet {
+  background-color: #fff;
+  transform: scale(1.2);
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}

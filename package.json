@@ -1,0 +1,15 @@
+{
+  "name": "js-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass sass/style.scss -o slidex/style",
+    "css:watch": "npm run css && node-sass style/sass/style.scss -wo slidex/style"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
